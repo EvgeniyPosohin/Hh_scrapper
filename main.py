@@ -3,7 +3,7 @@ import requests
 import fake_headers
 import json
 import re
-import getcwd
+from os import getcwd
 
 
 class HhScrap:
